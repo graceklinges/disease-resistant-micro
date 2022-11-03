@@ -1,0 +1,16 @@
+Treatment,p.value
+T0-No Treatment,0.872
+T0-Nitrate,0.669
+T0-Phosphate,0.505714286
+T0-Ammonium,0.015
+T0-Combined,0.767727273
+No Treatment-Nitrate,0.806785714
+No Treatment-Phosphate,0.669
+No Treatment-Ammonium,0.055
+No Treatment-Combined,0.806785714
+Nitrate-Phosphate,0.505714286
+Nitrate-Ammonium,0.0225
+Nitrate-Combined,0.669
+Phosphate-Ammonium,0.084
+Phosphate-Combined,0.806785714
+Ammonium-Combined,0.084
