@@ -19,8 +19,6 @@ setwd("~/Mote_nutrient_experiment/genotype_7")
 load(file = "ps_rel_g7.RData") #renamed, rarefied ps object
 sample_sums(ps_rel) #should be 1
 
-ps_rel = subset_samples(ps_rel, SampleID != "HP-7-2-T2") #I removed these because they had a ton of RICA and are clearly actually 50
-ps_rel = subset_samples(ps_rel, SampleID != "MP-7-3-T2")
 mapfile = "~/Mote_nutrient_experiment/data/Mapping-file-full-renamed.txt"
 map = import_qiime_sample_data(mapfile)
 sample_data(ps_rel) <- map
